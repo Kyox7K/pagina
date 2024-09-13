@@ -1,0 +1,103 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Container e Layout */
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+.content {
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction:
+}
+
+.tab-content {
+    display: none; /* Esconde todos os conteúdos das abas inicialmente */
+}
+
+.tab-content:first-of-type {
+    display: block; /* Exibe o primeiro conteúdo da aba por padrão */
+}
+
+/* Estilo para imagens na seção Home */
+.home-image {
+    max-width: 50%; /* Ajusta a largura máxima para 100% do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Adiciona bordas arredondadas, opcional */
+    margin: 10px 0; /* Adiciona espaço acima e abaixo da imagem */
+}
+
+/* Estilo para imagens de campeões */
+.champion-image {
+    max-width: 60%; /* Ajusta a largura máxima para 100% do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Adiciona bordas arredondadas, opcional */
+    margin: 10px 0; /* Adiciona espaço acima e abaixo da imagem */
+}
+
+/* Estilo para imagens de itens */
+.item-image {
+    max-width: 200px; /* Define a largura máxima para 150 pixels */
+    height: 50%; /* Mantém a proporção da imagem */
+    margin: 15px 0; /* Adiciona espaço acima e abaixo da imagem */
+    border-radius: 10%;
+}
+
+/* Estilo para imagens de estratégias */
+.strategy-image {
+    max-width: 150px; /* Define a largura máxima para 150 pixels */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 10px 0; /* Adiciona espaço acima e abaixo da imagem */
+    border-radius: 10%;
+}
